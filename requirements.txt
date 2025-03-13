@@ -1,0 +1,6 @@
+flask
+gunicorn
+appwrite
+requests
+twilio
+python-dotenv
