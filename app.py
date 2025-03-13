@@ -20,7 +20,7 @@ database = Databases(client)
 # Twilio OTP Setup
 
 
-#twilio_client = TwilioClient(os.getenv("AC4fd3f2a0f4c670b06f9515e58169b095"), os.getenv("712d02581a9b6d7493e6a07c50e3c830"))
+
 twilio_client = TwilioClient("YOUR_TWILIO_SID", "YOUR_TWILIO_AUTH_TOKEN")
 
 TWILIO_PHONE = "+917350672910"
